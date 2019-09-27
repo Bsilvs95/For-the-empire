@@ -1,7 +1,7 @@
 var mocha = require('mocha')
 var expect = require('chai').expect
 var deliverStormTroopersEscapeScene = require('./starWarsScene').deliverStormTroopersEscapeScene
-var { describe, it } = mocha
+
 
 describe('StarWarsScene', function () {
   it('returns shots and lines for Luke, Leia, and Han\'s escape scene', function () {
